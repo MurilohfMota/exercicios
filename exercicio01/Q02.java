@@ -9,6 +9,7 @@ public class Q02 {
    var b = Sc1.nextDouble();
     System.out.println("valor de x :");
     var x = Sc1.nextDouble();
+    Sc1.close();
     System.out.println("O valor de y é : "+((a*x)+b));
 }
 }
